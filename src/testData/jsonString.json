@@ -1,0 +1,44 @@
+{
+  "baseResp": {
+    "StatusCode": 0,
+    "StatusMessage": ""
+  },
+  "custom_info": {
+    "review_ticket_info": [
+      {
+        "apply_reason": "000",
+        "content": "{\"isChange\":{\"project_id\":1142,\"steps\":[2,3,127,128],\"id\":0,\"stage\":\"integration\",\"envs\":\"123\",\"grey_submitter\":\"wangxujinfeng\",\"grey_branch\":\"null\",\"grey\":false,\"type\":\"\",\"ability_detail\":[{\"id\":2,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":120,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"修改1\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"},{\"id\":3,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":120,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"修改2\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"},{\"id\":127,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":120,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"新增1\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"},{\"id\":128,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":0,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"新增2\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"}],\"stepsOld\":[\"pk150\",\"pk150\",\"pk150\",\"pk150\"],\"isSteps\":true,\"isAbility\":true,\"grayBranchOld\":\"null\",\"graySubmitterOld\":\"wangxujinfeng\"},\"dataBody\":{\"strategy_id\":9,\"project_id\":1142,\"steps\":[2,3,127,128,null],\"stage\":\"integration\",\"envs\":\"{}\",\"ability_detail\":[{\"id\":2,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":120,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"修改1\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"},{\"id\":3,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":120,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"修改2\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"},{\"id\":127,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":120,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"新增1\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"},{\"id\":128,\"name\":\"pk150\",\"required\":false,\"independent\":true,\"pipeline_template_id\":0,\"ci_type\":\"third_party\",\"tool_engine\":\"pk150\",\"server_template\":null,\"timeout_limit\":0,\"alert_groups\":\"[\\\"1234\\\",\\\"5678\\\"]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"\",\"show_name\":\"新增2\",\"owner\":\"wangxujinfeng\",\"server_template_id\":13,\"timeout_terminate_limit\":30,\"oncall_command\":\"pk\",\"analyze_type\":\"archive\",\"token\":\"\"},{\"name\":\"precheck_host\",\"required\":false,\"independent\":true,\"pipeline_template_id\":1608,\"ci_type\":\"viper\",\"tool_engine\":\"deepeye\",\"server_template\":null,\"timeout_limit\":0,\"alert_groups\":\"[]\",\"degraded\":false,\"success_rate\":0,\"envs\":\"{}\",\"show_name\":\"Precheck CI检查(DeepEye)-2\",\"owner\":\"https://data.bytedance.net/duty/oapi/v3/schedule/douyin.iosdev.zk.oncall/\",\"server_template_id\":0,\"timeout_terminate_limit\":120,\"oncall_command\":\"\",\"analyze_type\":\"source_code\",\"token\":\"\",\"effects\":[],\"ability_id\":3}]},\"type\":\"update_project_strategy_all\",\"url\":\"https://zk-boe.bytedance.net/projects/strategies?project_id=1142\",\"configInfo\":[{\"label\":\"相关正式节点\",\"value\":\"integration\"}],\"owner\":\"peishuangheng\"}",
+        "data_method": "PUT",
+        "data_url": "https://zhongkui-boe.bytedance.net/api/v2/strategies/9",
+        "end_time": 0,
+        "start_time": 1705031293,
+        "status": "running",
+        "submitter": "peishuangheng"
+      }
+    ],
+    "reviewers": [
+      {
+        "display": true,
+        "identity": "项目管理员",
+        "name": "peishuangheng"
+      },
+      {
+        "display": false,
+        "identity": "平台管理员",
+        "name": "jingzhezhou.1023"
+      },
+      {
+        "display": false,
+        "identity": "平台管理员",
+        "name": "zhaoensheng"
+      }
+    ]
+  },
+  "review_end": true,
+  "review_operator": "peishuangheng",
+  "reviewer_list": [
+    "peishuangheng",
+    "jingzhezhou.1023",
+    "zhaoensheng"
+  ]
+}
